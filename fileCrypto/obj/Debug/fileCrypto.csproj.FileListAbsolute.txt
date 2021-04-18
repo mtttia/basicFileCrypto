@@ -1,0 +1,15 @@
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\bin\Debug\fileCrypto.exe.config
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\bin\Debug\fileCrypto.exe
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\bin\Debug\fileCrypto.pdb
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.csprojAssemblyReference.cache
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\MainWindow.g.cs
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\App.g.cs
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto_MarkupCompile.cache
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto_MarkupCompile.lref
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\MainWindow.baml
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.g.resources
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.Properties.Resources.resources
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.csproj.GenerateResource.cache
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.exe
+C:\Users\matti\Desktop\fileCrypto\fileCrypto\obj\Debug\fileCrypto.pdb

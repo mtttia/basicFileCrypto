@@ -7,6 +7,39 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="366">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFFFF74B" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label Content="Encrypt" HorizontalAlignment="Left" Height="86" Margin="43,10,0,0" VerticalAlignment="Top" Width="291" FontSize="48" FontFamily="Segoe Print"/>
+            <Label Content="Select a file to encrypt with this app. &#xD;&#xA;Warning: Once the file is encrypted, do not change it to &#xD;&#xA;anyone so as not to compromise decryption." HorizontalAlignment="Left" Height="62" Margin="10,101,0,0" VerticalAlignment="Top" Width="346"/>
+            <TextBox x:Name="txtEncryptPath" HorizontalAlignment="Left" Height="30" Margin="10,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346"/>
+            <Label Content="Write here file to encrypt path" HorizontalAlignment="Left" Height="31" Margin="10,176,0,0" VerticalAlignment="Top" Width="346"/>
+            <Button x:Name="btnEncrypt" Content="Encrypt" HorizontalAlignment="Left" Height="36" Margin="225,353,0,0" VerticalAlignment="Top" Width="131" FontSize="20" Click="btnEncrypt_Click"/>
+            <TextBox x:Name="txtEncryptKey" HorizontalAlignment="Left" Height="30" Margin="10,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346"/>
+            <Label Content="Insert a key&#xD;&#xA;WARNING : don't forgot the key, without the key you can't &#xD;&#xA;decrypt the file. You can see the key as a password" HorizontalAlignment="Left" Height="66" Margin="10,247,0,0" VerticalAlignment="Top" Width="346"/>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="399" Margin="403,10,0,0" VerticalAlignment="Top" Width="379">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFF74B" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label Content="Decrypt" HorizontalAlignment="Left" Height="86" Margin="64,10,0,0" VerticalAlignment="Top" Width="291" FontSize="48" FontFamily="Segoe Print"/>
+            <Label Content="Select an encrypted file with this app. &#xD;&#xA;Warning : The file must not have been edited in any way." HorizontalAlignment="Left" Height="62" Margin="10,101,0,0" VerticalAlignment="Top" Width="346"/>
+            <TextBox x:Name="txtDecryptPath" HorizontalAlignment="Left" Height="30" Margin="10,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346"/>
+            <Label Content="Write here file to decrypt path" HorizontalAlignment="Left" Height="31" Margin="10,176,0,0" VerticalAlignment="Top" Width="346"/>
+            <Button x:Name="btnDecrypt" Content="Decrypt" HorizontalAlignment="Left" Height="36" Margin="225,353,0,0" VerticalAlignment="Top" Width="131" FontSize="20" Click="btnDecrypt_Click"/>
+            <TextBox x:Name="txtDecryptKey" HorizontalAlignment="Left" Height="30" Margin="10,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346"/>
+            <Label Content="Enter the key with which you encrypted the file" HorizontalAlignment="Left" Height="31" Margin="10,247,0,0" VerticalAlignment="Top" Width="346"/>
+        </Grid>
+
+
+
     </Grid>
 </Window>
